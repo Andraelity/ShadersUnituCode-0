@@ -94,21 +94,6 @@ public class PlayerMovement : MonoBehaviour
         {
             MyInputFly();
 
-            // bool flyUpOrDown = false;
-            // if(Input.GetKey(sprintKey))
-            // {
-            //     flyUpOrDown = true;
-            // }
-
-            // if (Input.GetKey(jumpKey) && flyUpOrDown == false)
-            // {
-                // FlyUp();
-            // }
-            // if (Input.GetKey(jumpKey) && flyUpOrDown == true)
-            // {
-                // FlyDown();
-            // }
-
             if (Input.GetKey(jumpKey))
             {
                 FlyUp();
